@@ -6,6 +6,33 @@
 
 ---
 
+## 快速开始
+
+```bash
+# 1. 克隆仓库
+git clone https://github.com/SHzzzAyys/pf-gametocyte-cellrank-gam
+cd pf-gametocyte-cellrank-gam
+
+# 2. 安装依赖（Python 3.9）
+pip install -r requirements.txt
+
+# 3. 把数据放入 data/ 目录（见"数据准备"一节）
+
+# 4. 修改 run_pf_pipeline.py 顶部三个变量（见"自定义数据"一节）
+#    H5AD            = "data/your_adata.h5ad"
+#    TERMINAL_STATES = ["TypeA", "TypeB"]
+#    ALL_APAP2       = ["Gene_1", "Gene_2", ...]
+
+# 5. 运行
+python run_pf_pipeline.py
+
+# 结果图输出到 figures/，数据输出到 outputs/
+```
+
+> 无数据？运行 `python run_pipeline.py` 用内置胰腺数据集验证整套流程（无需下载）。
+
+---
+
 ## 目录
 
 - [分析框架](#分析框架)
