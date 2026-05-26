@@ -274,6 +274,16 @@ adata.layers["unspliced"]
 
 ---
 
+## 相关 Protocol 资源
+
+单细胞测序分析模型构建的 GitHub Protocol 汇总（RNA velocity / 轨迹推断 / GRN / 细胞命运），见：
+
+**[PROTOCOLS.md](PROTOCOLS.md)**
+
+覆盖：上游定量（nf-core/scrnaseq、alevin-fry）→ 核心框架（Scanpy、AnnData）→ RNA Velocity（scVelo、dynamo）→ 细胞命运（CellRank、WOT）→ 基因调控网络（pySCENIC、hdWGCNA）→ 可视化（SCP、dittoSeq）。
+
+---
+
 ## 引用
 
 ```bibtex
