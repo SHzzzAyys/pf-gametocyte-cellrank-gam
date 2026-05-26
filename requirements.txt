@@ -1,0 +1,17 @@
+# P. falciparum Gametocyte scRNA-seq — CellRank + GAM Pipeline
+# Python 3.9 (via conda/miniconda)
+# Install order matters — pandas/numba must be pinned before cellrank
+
+scanpy==1.9.8
+scvelo==0.2.4
+cellrank==1.5.1
+pygam==0.8.0
+pandas==1.5.3
+numpy==1.23.5
+matplotlib==3.7.3
+numba==0.56.4
+llvmlite==0.39.1
+leidenalg==0.9.1
+scipy>=1.9.0
+anndata>=0.8.0
+loompy==3.0.6

@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Large data files (download separately, see README)
+data/*.h5ad
+data/*.tsv
+data/*.tsv.gz
+data/*.loom
+data/*.csv
+
+# Generated outputs (re-runnable)
+outputs/*.h5ad
+outputs/*.log
+outputs/lineage_drivers.csv
+
+# Keep directory placeholders
+!data/.gitkeep
+!outputs/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# OS
+.DS_Store
+Thumbs.db
